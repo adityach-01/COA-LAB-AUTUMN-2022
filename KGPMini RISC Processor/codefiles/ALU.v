@@ -146,4 +146,5 @@ module ALU(A,B,controls,flags,result_final);
 	assign flags[2] = carry;   // carry flag
 	assign flags[1] = result_final == 0 ? 1 : 0;        // zero flag
 	assign flags[0] = result_final[31];        // sign flag
+
 endmodule

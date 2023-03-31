@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 // `include "data_mem.v"
 
-module test();
+module test6();
     reg[31:0] a_in, data;
     wire[31:0] data_out;
     reg clk = 0,MemRead = 0, MemWrite = 0;

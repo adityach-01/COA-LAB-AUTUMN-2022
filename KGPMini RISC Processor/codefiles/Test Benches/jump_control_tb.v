@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 // `include "jump_control.v"
 
-module test();
+module test8();
     reg[2:0] condition, flags;
     wire out;
 

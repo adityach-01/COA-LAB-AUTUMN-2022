@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 // `include "control_unit.v"
 
-module test();
+module test4();
     reg[5:0] opcode;
     reg reset = 0;
     wire DataPCSel, RegSelect, RegWrite, MemRead, MemWrite, MemtoReg, AdSel, unconditional, halt;

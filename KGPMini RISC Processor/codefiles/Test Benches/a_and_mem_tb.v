@@ -2,7 +2,7 @@
 // `include "arithmetic_and_memory_unit.v"
 // `include "program_counter_unit.v"
 
-module test();
+module test1();
     reg[31:0] next_address = 32'b1;
     reg clk = 0,reset=0;
     reg RegWrite=0,MemRead=0,MemWrite=0,MemtoReg=1,DataPCSel=0,RegSelect=0;

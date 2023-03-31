@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 // `include "regfile.v"
 
-module test();
+module test12();
     reg[4:0] readReg1, readReg2, writeReg;
     wire[31:0] data1, data2;
     reg[31:0] writeData;

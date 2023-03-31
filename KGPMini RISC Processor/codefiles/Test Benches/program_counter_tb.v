@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 // `include "program_counter.v"
 
-module test();
+module test10();
     reg[31:0] next = 32'd34;
     reg clk = 0, reset = 0;
     wire[31:0] out;

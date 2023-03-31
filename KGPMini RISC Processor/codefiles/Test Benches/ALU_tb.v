@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 // `include "ALU.v"
 
-module test();
+module test3();
     reg[31:0] A,B;
     wire[31:0] out;
     wire[2:0] flags;

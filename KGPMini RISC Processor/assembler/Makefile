@@ -1,4 +1,4 @@
-# file=bubble_sort.s
+file=test.s
 outputFile: a.out
 	./a.out $(file)
 

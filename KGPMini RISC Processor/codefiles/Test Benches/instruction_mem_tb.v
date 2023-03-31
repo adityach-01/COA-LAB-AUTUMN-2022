@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 // `include "instruction_mem.v"
 
-module test();
+module test7();
     reg[31:0] add_in;
     wire[31:0] i_out;
 
