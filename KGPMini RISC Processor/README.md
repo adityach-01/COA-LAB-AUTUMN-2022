@@ -1,4 +1,4 @@
-# COA_LAB_AUTUMN_2021
+# COA_LAB_AUTUMN_2022
 This repository contains the code for Assignment 7 for Computer Organization and Architecture Laboratory. The `assembler` folder includes some test `.s` files and their corresponding `.coe` and `.txt` files to test the architecture. The `codefiles` folder contains the verilog code and test modules along with the ucf file. The `Test Benches` folder inside `codefiles` folder includes the verilog test fixtures for all the modules developed. The design documentation and the problem statement is available in the `docs` folder. Images of the Data Path and the ALU architecture along with the ISA have been documented in the report. The `testfiles` folder contains some custom assembly files along with their binaries for testing purposes. 
 
 ## Group Information
