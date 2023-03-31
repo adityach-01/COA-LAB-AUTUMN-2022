@@ -15,8 +15,8 @@ Group 17
 7. Add a `user constraint file` or `ucf` file to the project by adding `KGPminiRISC.ucf`. The ucf file specifies the mapping of FPGA ports to out verilog ports. Two special buttons have been added. `reset` button restarts the program in execution and `cont` button gets the processor out of the halt state.
 8. Generate the corresponding bit file after synthesizing the modules and dump the file on FPGA. 
 
-# Note
-The goven ucf file has been written for the SPARTAN boards. For any other board, the file may differ and has to be written again.
+<b>Note</b> : 
+The given ucf file has been written for the SPARTAN boards. For any other board, the file may differ and has to be written again.
 
 # A note on the test files
 In the test bench of the KGPminiRISC module, the output of the MUX that has ALU and Data Memory input is being monitored. A special instruction `halt` has been added to halt the CPU and stabilize the output. Use the halt instruction after the final answer has been computed and use `halt` after `addi rx 0`, where `rx` stores the final computed answer. Using this the final answer can be seen even on FPGA. Here we provide the output format for the main test file which is `bubble_sort.s`.
